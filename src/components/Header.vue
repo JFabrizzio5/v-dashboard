@@ -15,6 +15,7 @@ const { isOpen } = useSidebar()
         class="text-gray-500 focus:outline-none lg:hidden"
         @click="isOpen = true"
       >
+      
         <svg
           class="w-6 h-6"
           viewBox="0 0 24 24"
@@ -30,7 +31,7 @@ const { isOpen } = useSidebar()
           />
         </svg>
       </button>
-
+     
       <div class="relative mx-4 lg:mx-0">
         <span class="absolute inset-y-0 left-0 flex items-center pl-3">
           <svg class="w-5 h-5 text-gray-500" viewBox="0 0 24 24" fill="none">
