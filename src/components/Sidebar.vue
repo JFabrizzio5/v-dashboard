@@ -4,10 +4,10 @@ import { useSidebar } from '../composables/useSidebar'
 
 const { isOpen } = useSidebar()
 const activeClass = ref(
-  'bg-blue-900 bg-opacity-25 text-gray-100 border-gray-100',
+  'bg-white bg-opacity-15 text-gray-90 border-gray-100',
 )
 const inactiveClass = ref(
-  'border-blue-600 text-white-500 hover:bg-gray-600 hover:bg-opacity-25 hover:text-gray-100',
+  'border-blue-600 text-white hover:bg-gray-600 hover:bg-opacity-25 hover:text-gray-100',
 )
 </script>
 

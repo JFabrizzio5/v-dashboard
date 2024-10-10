@@ -5,6 +5,7 @@ import './assets/main.css'
 
 import DashboardLayout from './components/DashboardLayout.vue'
 import EmptyLayout from './components/EmptyLayout.vue'
+import '@fortawesome/fontawesome-free/css/all.css';
 
 const app = createApp(App)
 

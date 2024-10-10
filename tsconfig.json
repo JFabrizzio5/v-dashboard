@@ -8,7 +8,12 @@
     "sourceMap": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "lib": ["esnext", "dom"]
+    "skipLibCheck": true, // Añadido
+    "lib": ["esnext", "dom"],
+    "baseUrl": ".", // Añadido
+    "paths": {
+        "@/*": ["src/*"] // Añadido, si utilizas alias
+    }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
